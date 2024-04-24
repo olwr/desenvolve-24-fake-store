@@ -1,0 +1,27 @@
+.icons-container {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.icons__item {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.icons__item i {
+    color: var(--icon-color);
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (width >= 400px) {
+    .icons-container {
+        font-size: 1.5rem;
+        gap: 1.3rem;
+    }
+}

@@ -1,0 +1,97 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background: #d9d9d9;
+    padding: 1.5rem 0rem 2rem 0rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.hr-footer {
+    color: #b6b6b699;
+    margin: .5rem 0 1rem 0;
+}
+
+/* Faq */
+.faq-container {
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.faq__title-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.faq__title-container .fa-minus {
+    display: none;
+}
+
+.faq .faq__pages {
+    display: none;
+}
+
+.faq.active .fa-plus {
+    display: none;
+}
+
+.faq.faq.active .fa-minus {
+    display: block;
+}
+
+.faq.active .faq__pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.faq__item {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.4rem;
+}
+
+/* Payment */
+.payment-container {
+    text-align: center;
+    margin: .5rem 1rem;
+}
+
+.payment__title {
+    margin: 1rem 0;
+}
+
+.payment-container img {
+    width: 100%;
+}
+
+/* Social */
+.social-media {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social__icon i {
+    color: var(--gray);
+    font-size: 2rem;
+}
+
+/* Credits */
+.made-by {
+    margin: 0 1rem;
+    font-size: 1.3rem;
+    text-align: center;
+}

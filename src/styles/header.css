@@ -1,0 +1,120 @@
+.header-container {
+    background: var(--bg-main);
+    padding: 2rem 1rem;
+    color: var(--black);
+    margin-bottom: 3rem;
+}
+
+/* Top */
+.header-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.header__divs {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header-icons a {
+    text-decoration: none;
+    color: var(--gray);
+    font-family: var(--font-family-title);
+    font-size: 2.2rem;
+}
+
+.title-icon {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 3rem;
+}
+
+.title-container {
+    font-size: 3.6rem;
+    font-family: "Philosopher", sans-serif;
+}
+
+.title-container--bold {
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+/* Middle */
+.header-middle {
+    text-align: center;
+    margin: 2rem 0 .5rem 0;
+}
+
+.search-input {
+    width: 90%;
+    border-radius: 3px;
+    border: none;
+    padding: .5rem 0;
+}
+
+.search-input::placeholder {
+    text-align: center;
+    background: url('/src/assets/magnifying-glass-solid.svg') no-repeat center;
+    background-size: 15px;
+    background-position: 10px;
+}
+
+/* Bottom */
+.hr-header {
+    color: #b6b6b699;
+    margin: 1.5rem 0;
+}
+
+.header-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.header-bottom a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.arrow {
+    width: 1rem;
+    height: 1rem;
+    border-bottom: .3rem solid black;
+    border-right: .3rem solid black;
+    transform: rotate(320deg);
+}
+
+.header__divs__texto {
+    display: none;
+}
+
+/* Media Queries */
+@media screen and (width >= 400px) {
+    .header__divs {
+        gap: 2.5rem;
+    }
+
+    .title-icon {
+        font-size: 3.7rem;
+    }
+
+    .title-container {
+        font-size: 4rem;
+    }
+
+    .header-icons a {
+        font-size: 2.6rem;
+    }
+
+    .header-bottom {
+        font-size: 1.8rem;
+    }
+}

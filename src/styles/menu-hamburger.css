@@ -1,0 +1,83 @@
+.hamburger-menu .fa-bars {
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.menu__list {
+    display: none;
+}
+
+.hamburger-menu.active .menu__list {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 83%;
+    height: 85%;
+    margin: 0;
+    padding: 0 0 8rem 0;
+    list-style: none;
+    background: var(--light-green);
+    box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, .4);
+    transition-duration: .25s;
+    z-index: 2;
+}
+
+.hamburger-menu.active .menu__list .fa-xmark {
+    position: absolute;
+    top: 1rem;
+    right: 5%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.menu__list-top{
+    padding-top: 3rem;
+    background-color: #c4c4c4c4;
+}
+
+.menu__list__title i {
+    font-size: 1.8rem;
+    margin-right: .5rem;
+}
+
+.menu__list__title a {
+    color: darkgreen;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.2rem;
+}
+
+.menu__list__item,
+.menu__list__title {
+    display: block;
+    padding: 1.3rem 2.0rem;
+    color: var(--black);
+    text-decoration: none;
+    transition-duration: .25s;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+} 
+
+/* Media Queries */
+@media screen and (width >= 400px) {
+    .hamburger-menu .fa-bars {
+        font-size: 2.6rem;
+    }
+
+    .hamburger-menu.active .menu__list {
+        height: 75%;
+    }
+
+    .hamburger-menu.active .menu__list .fa-xmark {
+        font-size: 2.3rem;
+    }
+
+    .menu__list__title i {
+        font-size: 2rem;
+    }
+
+    .menu__list__title a {
+        font-size: 1.5rem;
+    }
+}
