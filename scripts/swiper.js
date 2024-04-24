@@ -1,8 +1,7 @@
 const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
-    autoplay: true,
-    speed: 1000,
+    cssMode: true,
 
     pagination: {
         el: '.swiper-pagination',
