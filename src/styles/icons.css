@@ -25,3 +25,16 @@
         gap: 1.3rem;
     }
 }
+
+@media screen and (width >= 768px) {
+    .icons-container {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (width >= 1280px) {
+    .icons-container {
+        font-size: 1.9rem;
+        gap: 2rem;
+    }
+}

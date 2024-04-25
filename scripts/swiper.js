@@ -5,15 +5,16 @@ const swiper = new Swiper('.swiper', {
 
     pagination: {
         el: '.swiper-pagination',
-        type: 'bullets'
+        type: 'bullets',
+        clickable: true,
     },
 
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev'
+        prevEl: '.swiper-button-prev',
     },
 
     autoplay: {
-        delay: 5000
+        delay: 5000,
     }
 });

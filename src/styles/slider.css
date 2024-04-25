@@ -33,3 +33,21 @@
 .swiper-button-next {
     display: none;
 }
+
+@media screen and (width >=768px) {
+    .swiper,
+    .swiper-slide img {
+        height: 40rem;
+    }
+
+    .swiper-slide span {
+        font-size: 2rem;
+    }
+
+    .swiper:hover .swiper-button-prev,
+    .swiper:hover .swiper-button-next {
+        display: block;
+        color: var(--star-i);
+        border-radius: 2px;
+    }
+}
