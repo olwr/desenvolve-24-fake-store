@@ -56,6 +56,14 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 7px var(--gray);
+}
+
+.contact__btn:active {
+    background-color: var(--light-green);
+    color: var(--white);
+    box-shadow: 0 5px var(--gray);
+    transform: translateY(4px);
 }
 
 @media screen and (width >= 768px) {
@@ -70,5 +78,12 @@
     .contact__email,
     .contact__name {
         font-size: 1.6rem;
+    }
+}
+
+@media screen and (width >= 1280px) {
+    .contact__btn:hover {
+        background-color: var(--light-green);
+        color: var(--white);
     }
 }

@@ -77,11 +77,28 @@
     font-weight: 600;
     padding: 1rem;
     border-radius: 30px;
+    box-shadow: 0 7px var(--gray);
+}
+
+.product__buy-btn:active,
+.product__cart-btn:active {
+    background-color: var(--title-color);
+    color: var(--white);
+    box-shadow: 0 5px var(--gray);
+    transform: translateY(4px);
 }
 
 /* Media Queries */
 @media screen and (width >= 400px) {
     .product__name {
         font-size: 1.7rem;
+    }
+}
+
+@media screen and (width >= 1280px) {
+    .product__buy-btn:hover,
+    .product__cart-btn:hover {
+        background-color: var(--title-color);
+        color: var(--white);
     }
 }

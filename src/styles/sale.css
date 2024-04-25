@@ -102,4 +102,11 @@
         position: relative;
         right: 0;
     }
+
+    .sale__card a:hover {
+        color: var(--star-i);
+        font-size: 1.8rem;
+        transition: .5s;
+        text-decoration: underline;
+    }
 }

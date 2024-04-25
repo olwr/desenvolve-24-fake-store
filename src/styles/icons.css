@@ -34,7 +34,12 @@
 
 @media screen and (width >= 1280px) {
     .icons-container {
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         gap: 2rem;
+    }
+
+    .icons__item:hover {
+        font-size: 2.2rem;
+        transition: .5s;
     }
 }

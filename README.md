@@ -32,6 +32,20 @@ Desenvolva um site responsivo completo para uma empresa do ramo de cosméticos, 
 
 [![Deploy with Vercel](https://vercel.com/button)](https://desenvolve-24-fake-store.vercel.app)
 
+## Screenshots
+
+**Desktop**
+
+![screenshot do site amber em seu design para desktop](<src/assets/Screenshot Amber - Desktop.png>)
+
+**Tablet**
+
+![screenshot do site amber em seu design para tablet](<src/assets/Screenshot Amber - Tablet.png>)
+
+**Mobile**
+
+![screenshot do site amber em seu design para mobile](<src/assets/Screenshot Amber - Mobile.png>)
+
 ###### Licenças
 
 As fotos usadas para a alimentação dos slides e produtos foram retiradas de forma gratuita do AdobeStock, Unsplash e Freepik.
