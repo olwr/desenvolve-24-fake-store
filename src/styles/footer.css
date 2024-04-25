@@ -9,6 +9,10 @@
     font-size: 1.5rem;
 }
 
+.footer-container i {
+    cursor: pointer;
+}
+
 .hr-footer {
     color: #b6b6b699;
     margin: .5rem 0 1rem 0;
@@ -106,18 +110,6 @@
     font-size: 1.3rem;
     text-align: center;
 }
-
-/* @media screen and (width >= 500px) {
-    .payment-container img {
-        width: 70%;
-    }
-}
-
-@media screen and (width >= 700px) {
-    .payment-container img {
-        width: 50%;
-    }
-} */
 
 @media screen and (width >= 768px) {
     .footer__div--big-screen {
